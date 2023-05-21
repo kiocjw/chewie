@@ -13,7 +13,10 @@ dependencies:
     sdk: flutter
   provider: ^6.0.3
   video_player: ^2.4.7
-  wakelock: ^0.6.2
+  wakelock:
+    git:
+      url: https://github.com/kiocjw/wakelock.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
